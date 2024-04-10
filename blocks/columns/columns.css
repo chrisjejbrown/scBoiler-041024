@@ -31,5 +31,6 @@
   .columns > div > div {
     flex: 1;
     order: unset;
+    vertical-align: top;
   }
 }
