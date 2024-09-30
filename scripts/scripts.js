@@ -15,7 +15,7 @@ import {
 
 const LCP_BLOCKS = []; // add your LCP blocks to the list
 
-import { Notifier } from './@airbrake/browser';
+import { Notifier } from './node_modules/@airbrake/browser/';
 
 const airbrake = new Notifier({
   projectId: 588100,
