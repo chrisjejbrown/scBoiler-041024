@@ -15,6 +15,14 @@ import {
 
 const LCP_BLOCKS = []; // add your LCP blocks to the list
 
+import { Notifier } from '@airbrake/browser';
+
+const airbrake = new Notifier({
+  projectId: 588100,
+  projectKey: 'a70b60f7d46e69c497d1c79e4bb84e24',
+  environment: 'production'
+});
+
 /**
  * Builds hero block and prepends to main in a new section.
  * @param {Element} main The container element
