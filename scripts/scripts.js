@@ -13,9 +13,10 @@ import {
   loadCSS,
 } from './aem.js';
 
+import { Notifier } from './node_modules/@airbrake/browser';
+
 const LCP_BLOCKS = []; // add your LCP blocks to the list
 
-import { Notifier } from './node_modules/@airbrake/browser/';
 
 const airbrake = new Notifier({
   projectId: 588100,
