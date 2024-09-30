@@ -210,6 +210,3 @@ main .section.highlight {
   background-color: var(--light-color);
 }
 
-.section:nth-child(odd) {
-  background: #eaeceb;
-}
