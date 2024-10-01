@@ -13,7 +13,7 @@ import {
   loadCSS,
 } from './aem.js';
 
-import { Notifier } from '../node_modules/@airbrake/browser'
+import { Notifier } from '@airbrake/browser/esm'
 
 const LCP_BLOCKS = []; // add your LCP blocks to the list
 
