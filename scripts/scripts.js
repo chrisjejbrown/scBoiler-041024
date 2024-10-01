@@ -1,5 +1,5 @@
 import { Notifier } from '@airbrake/browser/esm';
-import { Airbrake } from '@airbrake/browser/esm';
+
 import {
   sampleRUM,
   buildBlock,
@@ -17,7 +17,6 @@ import {
 
 
 const LCP_BLOCKS = []; // add your LCP blocks to the list
-
 
 const airbrake = new Notifier({
   projectId: 588100,
