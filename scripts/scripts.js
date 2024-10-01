@@ -140,13 +140,4 @@ async function loadPage() {
   loadDelayed();
 }
 
-let promise = airbrake.notify(`user id=${user_id} not found`);
-promise.then((notice) => {
-  if (notice.id) {
-    console.log('notice id', notice.id);
-  } else {
-    console.log('notify failed', notice.error);
-  }
-});
-
 loadPage();
