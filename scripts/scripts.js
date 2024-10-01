@@ -1,4 +1,4 @@
-import { Notifier } from '../@airbrake/browser';
+import { Notifier } from '@airbrake/browser';
 
 import {
   sampleRUM,
