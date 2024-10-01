@@ -1,3 +1,5 @@
+import { Notifier } from '@airbrake/browser/esm';
+import { Airbrake } from '@airbrake/browser/esm';
 import {
   sampleRUM,
   buildBlock,
@@ -13,7 +15,6 @@ import {
   loadCSS,
 } from './aem.js';
 
-import { Notifier } from '@airbrake/browser/esm'
 
 const LCP_BLOCKS = []; // add your LCP blocks to the list
 
