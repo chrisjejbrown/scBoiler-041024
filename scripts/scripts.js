@@ -1,4 +1,4 @@
-import { Notifier } from '@airbrake/browser/esm.js';
+import { Notifier } from '../@airbrake/browser/esm.js';
 
 import {
   sampleRUM,
